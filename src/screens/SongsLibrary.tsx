@@ -21,11 +21,11 @@ export default function SongsLibrary({ navigation }: any) {
     };
 
     const renderSongItem = ({ item }: any) => (
-        <View style={[styles.ListItem,styles.shadowProp]}>
+        <View style={styles.ListItem}>
             <Pressable
-                onPress={() => navigation.navigate('Details', { data: item.lyrics })}
+                onPress={() => navigation.navigate('Details', {title: item.title, data: item.lyrics })}
             >
-                <Text style={styles.ListText}>{item.id}{') '}{item.title}</Text>
+                <Text style={styles.ListText}>{item.title}</Text>
             </Pressable>
         </View>
     );
@@ -37,7 +37,7 @@ export default function SongsLibrary({ navigation }: any) {
                 value={searchQuery}
                 onChangeText={handleSearchInputChange}
                 placeholder="Search songs"
-                style={[styles.ListText, { height: 50, marginBottom: 20, marginTop: 20, padding: 10 }]}
+                style={[styles.ListText, styles.shadowProp, { height: 70, margin: 15, marginTop: 20, padding: 15 }]}
             />
             <FlatList
                 data={filteredSongs}
@@ -58,13 +58,13 @@ const styles = StyleSheet.create({
     ListItem: {
         marginBottom: 10,
         width:"100%",
-        height:40,
-        padding:5,
+        height:50,
+        padding:10,
         alignSelf: "flex-start",
+        borderBottomWidth:1,
     },
     ListText: {
         fontWeight: "700",
-        color: "#841584",
         fontSize:20,
     },
     shadowProp: {
@@ -72,7 +72,7 @@ const styles = StyleSheet.create({
         shadowOffset: {width: -2, height: 4},
         shadowOpacity: 0.2,
         shadowRadius: 3,
-        elevation:3,
+        elevation:1,
     },
 
 })
