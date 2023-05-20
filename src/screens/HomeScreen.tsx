@@ -1,13 +1,16 @@
 import React from 'react'
-import { Pressable, Text, View } from 'react-native'
+import { Button, Text, View } from 'react-native'
 
 export default function HomeScreen({navigation}:any) {
   return (
         <View>
             <Text>Home</Text>
-            <Pressable onPress={()=>navigation.navigate('Songs')}>
-                <Text>Press here to go to songs</Text>
-            </Pressable>
+            <Button
+                onPress={() => navigation.navigate('Songs')}
+                title="Go to songs"
+                color="#841584"
+                accessibilityLabel="Learn more about this purple button"
+            />
         </View>
     )
 }
