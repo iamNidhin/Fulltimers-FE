@@ -16,7 +16,8 @@ export default function SongsLibrary({ navigation }: any) {
         const filteredData = songsData.filter(
             (song) =>
                 song.title.toLowerCase().includes(text.toLowerCase()) ||
-                song.category.toLowerCase().includes(text.toLowerCase())
+                song.category.toLowerCase().includes(text.toLowerCase()) ||
+                song.subcategory.toLowerCase().includes(text.toLowerCase())
         );
         setFilteredSongs(filteredData);
     };

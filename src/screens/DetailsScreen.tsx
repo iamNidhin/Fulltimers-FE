@@ -12,10 +12,10 @@ export default function DetailsScreen({ route, navigation }: any) {
       <Text >
 
       </Text>
-      <Text style={[styles.TextContainer,{color:"red"}]}
+      {links.length>1?<Text style={[styles.TextContainer,{color:"red"}]}
         onPress={() => Linking.openURL(links)}>
         Click here to watch the video
-      </Text>
+      </Text>:<></>}
     </View>
   )
 }
