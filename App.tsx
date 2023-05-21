@@ -9,6 +9,7 @@ import HomeScreen from './src/screens/HomeScreen';
 import SongsLibrary from './src/screens/SongsLibrary';
 import DetailsScreen from './src/screens/DetailsScreen';
 import SettingsScreen from './src/screens/SettingsScreen';
+import PrayerBookScreen from './src/screens/PrayerBookScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -22,7 +23,7 @@ function App(): JSX.Element {
         <Stack.Screen options={{
           headerShown: false
         }}
-          name="Songs" component={SongsLibrary} />
+          name="Songs Library" component={SongsLibrary} />
         <Stack.Screen
           options={{
             headerShown: false
@@ -33,8 +34,12 @@ function App(): JSX.Element {
             headerShown: false
           }}
           name="Settings" component={SettingsScreen} />
+      <Stack.Screen
+          options={{
+            headerShown: false
+          }}
+          name="Prayer Book" component={PrayerBookScreen} />
       </Stack.Navigator>
-
     </NavigationContainer>
   );
 }
