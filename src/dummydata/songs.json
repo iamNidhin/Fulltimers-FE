@@ -1,32 +1,37 @@
 [
   {
     "id": 1,
-    "title": "Song 1",
-    "artist": "Artist 1",
-    "lyrics": "Lorem ipsum dolor sit.\n amet, consectetur adipiscing elit.\n Nullam vestibulum accumsan mi,sed mattis odio faucibus nec.\n Sed vitae eros rutrum, pulvinar diam sed, aliquam tortor. Fusce nec turpis justo. \n\n In malesuada neque at metus malesuada vulputate."
+    "title": "Every Move I Make",
+    "category": "Action Song",
+    "lyrics": "Every move I make, I make in you \n You make me move, (Jesus) \n Every breath I take I breath in you \n Every step I take, I take in you \n You are my way (Jesus) \n Every breath I take I breath in you \n\n Na, Na Na Na Na Na Na \n Na Na Na, Na Na Na Na Na Na \n\n Waves of mercy \n Waves of grace \n Everywhere I look I see your face \n Your love has captured me \n Oh my God, this love, how can it be? \n\n Na, Na Na Na Na Na Na \n Na Na Na, Na Na Na Na Na Na",
+    "links":"https://www.youtube.com/watch?v=CEtrCKZKbAI"
   },
   {
     "id": 2,
     "title": "Song 2",
-    "artist": "Artist 2",
-    "lyrics": "Donec sed tellus et augue pulvinar ultrices vel non nisi.\n  Quisque ut augue non quam ultrices iaculis. Vestibulum blandit vestibulum malesuada. Fusce auctor fermentum mi, vitae fringilla enim semper at. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In rhoncus enim quis nulla suscipit, ac aliquam sapien posuere."
+    "category": "Artist 2",
+    "lyrics": "Donec sed tellus et augue pulvinar ultrices vel non nisi.\n  Quisque ut augue non quam ultrices iaculis. Vestibulum blandit vestibulum malesuada. Fusce auctor fermentum mi, vitae fringilla enim semper at. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In rhoncus enim quis nulla suscipit, ac aliquam sapien posuere.",
+    "links":""
   },
   {
     "id": 3,
     "title": "Song 3",
-    "artist": "Artist 3",
-    "lyrics": "Nam ut condimentum lectus.\n Duis in interdum lorem. Etiam finibus tincidunt eleifend. Aliquam sed ante nec est tempus efficitur. Integer ut dui at neque tincidunt malesuada ut vel elit. Quisque vel placerat enim. Ut imperdiet mauris sit amet fringilla consectetur."
+    "category": "Artist 3",
+    "lyrics": "Nam ut condimentum lectus.\n Duis in interdum lorem. Etiam finibus tincidunt eleifend. Aliquam sed ante nec est tempus efficitur. Integer ut dui at neque tincidunt malesuada ut vel elit. Quisque vel placerat enim. Ut imperdiet mauris sit amet fringilla consectetur.",
+    "links":""
   },
   {
     "id": 4,
     "title": "Song 4",
-    "artist": "Artist 4",
-    "lyrics": "Pellentesque varius tincidunt purus, nec fringilla dui bibendum at.\n  Aenean fringilla tincidunt sem, non lobortis mi pharetra vel. Sed pellentesque lacus odio, sed condimentum lacus eleifend et. Phasellus eu vestibulum mi, eu interdum ipsum. Morbi vehicula felis id eleifend sagittis. Nam maximus, felis eu sollicitudin dapibus, sapien lectus malesuada ipsum, ac iaculis erat nibh vel nunc."
+    "category": "Artist 4",
+    "lyrics": "Pellentesque varius tincidunt purus, nec fringilla dui bibendum at.\n  Aenean fringilla tincidunt sem, non lobortis mi pharetra vel. Sed pellentesque lacus odio, sed condimentum lacus eleifend et. Phasellus eu vestibulum mi, eu interdum ipsum. Morbi vehicula felis id eleifend sagittis. Nam maximus, felis eu sollicitudin dapibus, sapien lectus malesuada ipsum, ac iaculis erat nibh vel nunc.",
+    "links":""
   },
   {
     "id": 5,
     "title": "Song 5",
-    "artist": "Artist 5",
-    "lyrics": "Curabitur efficitur vehicula velit id sagittis.\n  Aliquam congue fermentum felis, ac pharetra urna gravida sit amet. Vestibulum sodales metus at dolor hendrerit efficitur. Vestibulum eget pulvinar lectus. In vel tincidunt sem. Fusce volutpat feugiat nisi, sed tristique leo tempor et. Nunc faucibus, purus vel lacinia aliquet, ipsum enim dignissim nisl, et malesuada felis neque vitae ex."
+    "category": "Artist 5",
+    "lyrics": "Curabitur efficitur vehicula velit id sagittis.\n  Aliquam congue fermentum felis, ac pharetra urna gravida sit amet. Vestibulum sodales metus at dolor hendrerit efficitur. Vestibulum eget pulvinar lectus. In vel tincidunt sem. Fusce volutpat feugiat nisi, sed tristique leo tempor et. Nunc faucibus, purus vel lacinia aliquet, ipsum enim dignissim nisl, et malesuada felis neque vitae ex.",
+    "links":""
   }
 ]
