@@ -1,6 +1,5 @@
 import React from 'react'
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native'
-import Icon from 'react-native-vector-icons/FontAwesome5';
 import MenuComponentWide from '../components/MenuComponentWide';
 
 export default function HomeScreen({navigation}:any) {
