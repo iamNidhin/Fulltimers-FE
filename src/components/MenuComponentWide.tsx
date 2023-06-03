@@ -5,8 +5,7 @@ import Icon from 'react-native-vector-icons/FontAwesome5';
 export default function MenuComponentWide(props: any) {
     return (
         <Pressable
-            onPress={() => props.navigation.navigate(props.label)}
-        >
+            onPress={() => props.navigation.navigate("Library", {data:props.data})}>
             <View style={[styles.ImageButton, styles.shadowProp]}>
                 <Text style={styles.ImageButtonText}>{props.label}</Text>
                 <Icon name={props.icon} size={30} style={{ marginLeft: 10 }} color="black" />
