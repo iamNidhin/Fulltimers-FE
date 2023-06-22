@@ -1,0 +1,47 @@
+// const storeData = async (value: any) => {
+//     try {
+//         const data = await AsyncStorage.getItem('@storage_Key')
+//         if (data == null) {
+//             await AsyncStorage.setItem('@storage_Key', JSON.stringify(value))
+//         }
+//         else {
+//             await AsyncStorage.mergeItem('@storage_Key', JSON.stringify(value));
+//         }
+
+//     } catch (e) {
+//         // saving error
+//     }
+
+// }
+
+// const getData = async () => {
+//     try {
+//         const value = await AsyncStorage.getItem('@storage_Key')
+//         if (value !== null) {
+//             console.log(value)
+//         }
+//     } catch (e) {
+//         // error reading value
+//     }
+// }
+
+// const removeData = async () => {
+//     try {
+//         await AsyncStorage.removeItem('@storage_Key')
+
+//     } catch (e) {
+//         // error reading value
+//     }
+// }
+
+// const callApi = async () => {
+//     try {
+//         const value = await AsyncStorage.getItem('@storage_Key')
+//         if (value !== null) {
+            
+//         }
+
+//     } catch (e) {
+//         // error reading value
+//     }
+// }

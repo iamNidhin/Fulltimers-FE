@@ -7,12 +7,12 @@ export default function DetailsScreen({ route, navigation }: any) {
 
   return (
     <View style={{ height: "100%", backgroundColor: "white" }}>
-      <Text style={[styles.TextContainer, { fontWeight: "700", fontSize: 30, marginTop: 20 }]}>{title}</Text>
-      <Text style={styles.TextContainer}>{data}</Text>
+      {title?.length>1?<Text style={[styles.TextContainer, { fontWeight: "700", fontSize: 30, marginTop: 20 }]}>{title}</Text>:<></>}
+      {data?.length>1?<Text style={styles.TextContainer}>{data}</Text>:<></>}
       <Text >
 
       </Text>
-      {links.length>1?<Text style={[styles.TextContainer,{color:"red"}]}
+      {links?.length>1?<Text style={[styles.TextContainer,{color:"red"}]}
         onPress={() => Linking.openURL(links)}>
         Click here to watch the video
       </Text>:<></>}
