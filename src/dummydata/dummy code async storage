@@ -45,3 +45,5 @@
 //         // error reading value
 //     }
 // }
+<MenuComponentWide navigation={navigation} label="Songs Library" icon="headphones" data={songsData} />
+<MenuComponentWide navigation={navigation} label="Prayer Book" icon="book" data={prayerData} />

@@ -5,14 +5,14 @@ import { Searchbar } from 'react-native-paper';
 
 
 
-export default function Library({ route, navigation }: any) {
+export default function Library({ data, navigation }: any) {
 
     const [searchQuery, setSearchQuery] = useState('');
     const [filteredData, setFilteredData] = useState();
 
     useEffect(() => {
 
-        setFilteredData(route.params.data)
+        setFilteredData(data)
 
     }, [])
 
@@ -20,7 +20,7 @@ export default function Library({ route, navigation }: any) {
     const handleSearchInputChange = (text: string) => {
         setSearchQuery(text);
 
-        const filterData = route.params.data.filter(
+        const filterData = data.filter(
             (item :any) =>
                 item.title.toLowerCase().includes(text.toLowerCase()) ||
                 item.category.toLowerCase().includes(text.toLowerCase()) ||
