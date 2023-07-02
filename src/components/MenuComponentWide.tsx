@@ -1,14 +1,13 @@
 import React from 'react'
-import { Pressable, StyleSheet, Text, View } from 'react-native'
-import Icon from 'react-native-vector-icons/FontAwesome5';
+import { Image, Pressable, StyleSheet, Text, View } from 'react-native'
 
 export default function MenuComponentWide(props: any) {
     return (
         <Pressable
             onPress={() => props.navigation.navigate("Library", {data:props.data})}>
             <View style={[styles.ImageButton, styles.shadowProp]}>
+                <Image style={styles.Image} source={{uri:props.url}}/>
                 <Text style={styles.ImageButtonText}>{props.label}</Text>
-                <Icon name={props.icon} size={30} style={{ marginLeft: 10 }} color="black" />
             </View>
         </Pressable>
     )
@@ -16,14 +15,12 @@ export default function MenuComponentWide(props: any) {
 
 const styles = StyleSheet.create({
     ImageButton: {
-        height: 100,
-        width: "100%",
-        borderRadius: 10,
-        marginTop: 20,
-        backgroundColor: "white",
-        justifyContent: "center",
-        flexDirection: "row",
-        alignItems: "center",
+        width : '100%',
+        height : 200,
+        marginBottom : 25,
+        borderRadius : 15,
+        backgroundColor : '#FFFFFF',
+        overflow : 'hidden'
     },
     shadowProp: {
         shadowColor: '#171717',
@@ -38,5 +35,9 @@ const styles = StyleSheet.create({
         fontWeight: "700",
         alignSelf: "center",
     },
+    Image:{
+        width : '100%',
+        height : '70%'
+    }
 
 })
