@@ -4,7 +4,7 @@ import { Image, Pressable, StyleSheet, Text, View } from 'react-native'
 export default function MenuComponentWide(props: any) {
     return (
         <Pressable
-            onPress={() => props.navigation.navigate("Library", {data:props.data})}>
+            onPress={() => props.navigation.navigate(props.type, {data:props.data})}>
             <View style={[styles.ImageButton, styles.shadowProp]}>
                 <Image style={styles.Image} source={{uri:props.url}}/>
                 <Text style={styles.ImageButtonText}>{props.label}</Text>
@@ -37,7 +37,8 @@ const styles = StyleSheet.create({
     },
     Image:{
         width : '100%',
-        height : '70%'
+        height : '70%',
+        marginBottom: 10,
     }
 
 })
