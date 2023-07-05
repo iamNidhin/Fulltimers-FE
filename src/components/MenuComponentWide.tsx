@@ -23,11 +23,11 @@ const styles = StyleSheet.create({
         overflow : 'hidden'
     },
     shadowProp: {
-        shadowColor: '#171717',
-        shadowOffset: { width: -2, height: 4 },
-        shadowOpacity: 0.2,
+        shadowColor: 'black',
+        shadowOffset: { width: 4, height: 8 },
+        shadowOpacity: 0.7,
         shadowRadius: 3,
-        elevation: 1,
+        elevation: 7,
     },
     ImageButtonText: {
         fontSize: 30,

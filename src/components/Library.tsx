@@ -32,7 +32,7 @@ export default function Library({ route, navigation }: any) {
     const renderItem = ({ item }: any) => (
         <View style={styles.ListItem}>
             <Pressable
-                onPress={() => navigation.navigate('Details', { title: item.title, data: item.data, links: item.links })}
+                onPress={() => navigation.navigate('Details', { title: item.title, data: item.data, links: item.link })}
             >
                 <Text style={styles.ListText}>{item.title}</Text>
                 <Icon name="play" size={20} style={{ marginLeft: 10, flex: 1 }} color="black" />

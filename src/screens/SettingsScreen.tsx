@@ -5,7 +5,7 @@ export default function SettingsScreen() {
   return (
     <View>
         <Text>
-            This is the settings screen
+            Contact information
         </Text>
     </View>
   )
