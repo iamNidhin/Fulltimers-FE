@@ -9,6 +9,7 @@ import SettingsScreen from './src/screens/SettingsScreen';
 import AccordianScreen from './src/components/AccordianScreen';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Ionicons from 'react-native-vector-icons/Ionicons';
+import ResponsePrayer from './src/components/ResponsePrayer';
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -20,7 +21,7 @@ const HomeNav = ()=> {
       options={{
         headerShown: false,
       }}
-      name="Home"
+      name="HomeScreen"
       component={HomeScreen}
     />
     <Stack.Screen
@@ -50,7 +51,14 @@ const HomeNav = ()=> {
       }}
       name="Accordian"
       component={AccordianScreen}
-    />
+    /> 
+    <Stack.Screen
+    options={{
+      headerShown: false,
+    }}
+    name="Response"
+    component={ResponsePrayer}
+  />
   </Stack.Navigator>
   )
 }

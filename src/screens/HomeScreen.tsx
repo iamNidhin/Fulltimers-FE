@@ -6,6 +6,7 @@ import songsData from '../dummydata/songs.json';
 import prayerData from '../dummydata/prayers.json';
 import activitiesData from '../dummydata/activities.json';
 import jyData from '../dummydata/jy.json';
+import massData from '../dummydata/holymass.json';
 
 export default function HomeScreen({navigation}: any) {
   return (
@@ -28,6 +29,13 @@ export default function HomeScreen({navigation}: any) {
         />
         <MenuComponentWide
           navigation={navigation}
+          label="Holy Mass"
+          url="https://images.unsplash.com/photo-1518187544126-ae31d92f1b4a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80"
+          data={massData}
+          type={"Response"}
+        />
+        <MenuComponentWide
+          navigation={navigation}
           label="Activities"
           url="https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1138&q=80"
           data={activitiesData}
@@ -40,6 +48,7 @@ export default function HomeScreen({navigation}: any) {
           data={jyData}
           type={"Accordian"}
         />
+        
       </ScrollView>
     </View>
   );

@@ -94,9 +94,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.ftboilerplate"
+    namespace "com.missionary"
     defaultConfig {
-        applicationId "com.ftboilerplate"
+        applicationId "com.missionary"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

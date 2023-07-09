@@ -1,4 +1,4 @@
-package com.ftboilerplate;
+package com.missionary;
 
 import android.app.Application;
 import com.facebook.react.PackageList;
