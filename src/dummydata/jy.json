@@ -1,118 +1,120 @@
-[ [{
-  "id": 7,
-  "title": "1.Personal Prayer",
-  "category": "Jesus Youth",
-  "subcategory": "Spirituality",
-  "data": "At the heart of the movement is a daily \u2018quiet time\u2019 with the Lord that leads to an experience of a loving friendship with Jesus and fosters a joyful attitude to life. A diverse series of reflections and contemporary prayer formats that have evolved from everyday life help spark off and sustain a life of prayer within the movement."
-},
-{
-  "id": 8,
-  "title": "2.Word of God",
-  "category": "Jesus Youth",
-  "subcategory": "Spirituality",
-  "data": "A regular time for a meditative reading of the Sacred Scripture has always been part of the Jesus Youth way of life. It helps people to shape their lives according to God\u2019s will. Thus they also acquire the ability to seek God\u2019s guidance through the continuous study of the Word of God. Jesus Youth are expected to read the scripture everyday, meditate on it and live the essence of Scripture in their daily lives."
-},
-{
-  "id": 9,
-  "title": "3. Sacraments",
-  "category": "Jesus Youth",
-  "subcategory": "Spirituality",
-  "data": "The very mission of Jesus Youth movement is to be at the service of the Church, the body of Christ. Thus participating fully in the Sacramental life of the Catholic Church is a sign of its communion with the Church. Frequent and active participation in the sacraments contribute to a life of grace and holiness. Jesus Youth are specifically encouraged to draw strength and renewal from the frequent celebration of the Eucharist and their regular participation in the sacrament of Reconciliation."
-},
-{
-  "id": 10,
-  "title": "4.Fellowship",
-  "category": "Jesus Youth ",
-  "subcategory": "Spirituality",
-  "data": "Jesus Youth are known for the deep spiritual friendships and sustained life of communion experienced through mutual support of each other, encouragement, healing and fraternal correction. These are made possible through the frequent gatherings of cell groups, prayer groups, Jesus Youth Households and the diverse sets of friendship circles within the movement."
-},
-{
-  "id": 11,
-  "title": "5.Evangelisation",
-  "category": "Jesus Youth",
-  "subcategory": "Spirituality",
-  "data": "Convinced that Jesus is the greatest gift they have received, Jesus Youth seek to share Jesus with others in genuine, simple or innovative ways every day. Taking their cue from the exhortations of the Church, young people in the movement encourage each other to use their talents and strengths for the sharing of the love, the person and the message of Christ, especially in the ordinary circumstances of life. Every initiative, platform or project of the movement is rooted in fulfilling the commission of Jesus to carry the good news to the ends of the earth. This joyful experience of evangelisation is the central part of every Jesus Youth."
-},
-{
-  "id": 12,
-  "title": "6.Option for the poor",
-  "category": "Jesus Youth",
-  "subcategory": "Spirituality",
-  "data": "In today\u2019s world that is progressively being designed for the affluent and the influential, Jesus Youth are encouraged to stand by, support and help the poor, the sidelined and the marginalised in the societies they live in. They are called to discover the image of the Suffering Christ in the poor. Out of the love of Christ, they identify with those burdened with poverty and deprivation and stretch out a helping hand to them in the spirit of solidarity."
-}
-],
 [
-  {
-    "id": 1,
-    "title": "Kids",
-    "category": "Jesus Youth",
-    "subcategory": "Ministries",
-    "data": "Today, kids have a whole world of entertainment, activities and media tailored to them alone. In this context, Jesus Youth realises that there is a need to create family centric and Jesus centric content and activities for young kids. Jesus Youth Kids offers a set of entertaining activities, games, music, workshops and a significant set of resource materials tailor made for kids aged between 4-12 years."
-  },
-  {
-    "id": 2,
-    "title": "Teens",
-    "category": "Jesus Youth",
-    "subcategory": "Ministries",
-    "data": "Progressively, teenagers are now being seen by marketers as a key demographic in disseminating cultural ideas. Jesus Youth understands that this is a time when teens are being swayed by the conflicting influences around them and are often burdened with difficult choices. Jesus Youth Teens focuses on initiatives and sustained formation programmes for school students in grades 8 to 12. It reaches out to teenagers in contemporary and exciting ways and helps them discover the beauty of a Christ-centred life."
-  },
-  {
-    "id": 3,
-    "title": "Campus",
-    "category": "Jesus Youth",
-    "subcategory": "Ministries",
-    "data": "From the early 90s,  campuses were one of first public spaces where Jesus Youth began to be present as a youth movement. Campuses in most cultures have always been centres of thought, ideas and change. Entirely initiated by students, Jesus Youth groups work in colleges to influence the affective dimension of Campus life, nurturing a passion to participate in the institutional and individual transformation. The initiatives involve students, faculty and the senior management in Campus-bringing about a culture of faith in learning centres."
-  },
-  {
-    "id": 4,
-    "title": "Parishes",
-    "category": "Jesus Youth",
-    "subcategory": "Ministries",
-    "data": "In the mid 90s young people who encountered Jesus through the movement went back to their parishes and initiated youth groups that helped refresh life in parishes. Being a movement which is at the service of the Church, it is a constant thrust of Jesus Youth to be a catalyst in parishes, promoting a creative, Jesus Centred and evangelistic life in parishes."
-  },
-  {
-    "id": 5,
-    "title": "Professionals",
-    "category": "Jesus Youth",
-    "subcategory": "Ministries",
-    "data": "Today, the profession and the environment of work has taken on a highly significant place in our society. On the other hand it can be a place of immense stress, competition and interpersonal struggles. Professions and work environments, Jesus Youth believes, can be imbued with a new grace if approached with a Christ-centric attitude. Thus Jesus Youth Professionals is a fellowship of professionals in various walks of life, helping each other to celebrate their lives with God and fulfil their responsibility to the church and the society. Through the tough demands of different professions and corporate careers, they seek to live the gospel and proclaim His love in today\u2019s workplaces."
-  },
-  {
-    "id": 6,
-    "title": "Family",
-    "category": "Jesus Youth",
-    "subcategory": "Ministries",
-    "data": "Jesus Youth recognize the grace and power present in the sacrament of marriage and the Catholic family\u2013especially in our highly individualised society. It realises that vibrant, young and loving families are the key to transforming neighbourhoods and societies. Thus the movement today offers an effective set of initiatives, formation modules and support groups to help young families and kids live a joyful, loving, Christ-centred and evangelistic life in today\u2019s changing world."
-  }
+  [
+    {
+      "id": 7,
+      "title": "1.Personal Prayer",
+      "category": "Jesus Youth",
+      "subcategory": "Spirituality",
+      "data": "At the heart of the movement is a daily \u2018quiet time\u2019 with the Lord that leads to an experience of a loving friendship with Jesus and fosters a joyful attitude to life. A diverse series of reflections and contemporary prayer formats that have evolved from everyday life help spark off and sustain a life of prayer within the movement."
+    },
+    {
+      "id": 8,
+      "title": "2.Word of God",
+      "category": "Jesus Youth",
+      "subcategory": "Spirituality",
+      "data": "A regular time for a meditative reading of the Sacred Scripture has always been part of the Jesus Youth way of life. It helps people to shape their lives according to God\u2019s will. Thus they also acquire the ability to seek God\u2019s guidance through the continuous study of the Word of God. Jesus Youth are expected to read the scripture everyday, meditate on it and live the essence of Scripture in their daily lives."
+    },
+    {
+      "id": 9,
+      "title": "3. Sacraments",
+      "category": "Jesus Youth",
+      "subcategory": "Spirituality",
+      "data": "The very mission of Jesus Youth movement is to be at the service of the Church, the body of Christ. Thus participating fully in the Sacramental life of the Catholic Church is a sign of its communion with the Church. Frequent and active participation in the sacraments contribute to a life of grace and holiness. Jesus Youth are specifically encouraged to draw strength and renewal from the frequent celebration of the Eucharist and their regular participation in the sacrament of Reconciliation."
+    },
+    {
+      "id": 10,
+      "title": "4.Fellowship",
+      "category": "Jesus Youth ",
+      "subcategory": "Spirituality",
+      "data": "Jesus Youth are known for the deep spiritual friendships and sustained life of communion experienced through mutual support of each other, encouragement, healing and fraternal correction. These are made possible through the frequent gatherings of cell groups, prayer groups, Jesus Youth Households and the diverse sets of friendship circles within the movement."
+    },
+    {
+      "id": 11,
+      "title": "5.Evangelisation",
+      "category": "Jesus Youth",
+      "subcategory": "Spirituality",
+      "data": "Convinced that Jesus is the greatest gift they have received, Jesus Youth seek to share Jesus with others in genuine, simple or innovative ways every day. Taking their cue from the exhortations of the Church, young people in the movement encourage each other to use their talents and strengths for the sharing of the love, the person and the message of Christ, especially in the ordinary circumstances of life. Every initiative, platform or project of the movement is rooted in fulfilling the commission of Jesus to carry the good news to the ends of the earth. This joyful experience of evangelisation is the central part of every Jesus Youth."
+    },
+    {
+      "id": 12,
+      "title": "6.Option for the poor",
+      "category": "Jesus Youth",
+      "subcategory": "Spirituality",
+      "data": "In today\u2019s world that is progressively being designed for the affluent and the influential, Jesus Youth are encouraged to stand by, support and help the poor, the sidelined and the marginalised in the societies they live in. They are called to discover the image of the Suffering Christ in the poor. Out of the love of Christ, they identify with those burdened with poverty and deprivation and stretch out a helping hand to them in the spirit of solidarity."
+    }
   ],
   [
-  {
-    "id": 13,
-    "title": "Prayer Groups",
-    "category": "Jesus Youth",
-    "subcategory": "Friendship",
-    "data": "They form the most basic platform for prayer, teaching and fellowship. Meeting at regular intervals, these groups create a favorable environment for growth in the movement. They involve an informal but lively time of praise and worship, a spirit-filled scripture sharing, intercessions and a joyful time of interaction with each other."
-  },
-  {
-    "id": 14,
-    "title": "Cell Group",
-    "category": "Jesus Youth",
-    "subcategory": "Friendship",
-    "data": "Young people and families come together regularly for prayer and fellowship within the movement. Such progressively growing cells, with 5 to 10 members of the same gender, ensure ongoing spiritual formation and are an important platform for mutual enrichment and spiritual guidance. The small size of the cells provide the opportunity for a deeper time of sharing and listening."
-  },
-  {
-    "id": 15,
-    "title": "Households",
-    "category": "Jesus Youth",
-    "subcategory": "Friendship",
-    "data": "A Household is the fundamental unit of life in the Jesus Youth movement. Households are forums where the members in the movement come together every month for prayer, sharing, scripture reflection, catechism, and discussion on human and ecclesial realities that are relevant to a common commitment. The Jesus Youth Household can be perceived as an answer to the yearning of the movement to enter deeply into the missionary life of the Church. The movement brings out regular monthly scripture reflections which become the key spiritual material around which the household gatherings revolve."
-  },
-  {
-    "id": 16,
-    "title": "Small Groups",
-    "category": "Jesus Youth",
-    "subcategory": "Friendship",
-    "data": "These groups evolved as a response to the spiritual needs of families living in urban centres with hectic lifestyles. They are hosted in homes, offices, colleges and other spaces. With a maximum number of around 15 people, the small groups are designed to split and multiply. The Jesus Youth Prayer and Study Materials are key tools in these small group gatherings."
-  }
- ]
+    {
+      "id": 1,
+      "title": "Kids",
+      "category": "Jesus Youth",
+      "subcategory": "Ministries",
+      "data": "Today, kids have a whole world of entertainment, activities and media tailored to them alone. In this context, Jesus Youth realises that there is a need to create family centric and Jesus centric content and activities for young kids. Jesus Youth Kids offers a set of entertaining activities, games, music, workshops and a significant set of resource materials tailor made for kids aged between 4-12 years."
+    },
+    {
+      "id": 2,
+      "title": "Teens",
+      "category": "Jesus Youth",
+      "subcategory": "Ministries",
+      "data": "Progressively, teenagers are now being seen by marketers as a key demographic in disseminating cultural ideas. Jesus Youth understands that this is a time when teens are being swayed by the conflicting influences around them and are often burdened with difficult choices. Jesus Youth Teens focuses on initiatives and sustained formation programmes for school students in grades 8 to 12. It reaches out to teenagers in contemporary and exciting ways and helps them discover the beauty of a Christ-centred life."
+    },
+    {
+      "id": 3,
+      "title": "Campus",
+      "category": "Jesus Youth",
+      "subcategory": "Ministries",
+      "data": "From the early 90s,  campuses were one of first public spaces where Jesus Youth began to be present as a youth movement. Campuses in most cultures have always been centres of thought, ideas and change. Entirely initiated by students, Jesus Youth groups work in colleges to influence the affective dimension of Campus life, nurturing a passion to participate in the institutional and individual transformation. The initiatives involve students, faculty and the senior management in Campus-bringing about a culture of faith in learning centres."
+    },
+    {
+      "id": 4,
+      "title": "Parishes",
+      "category": "Jesus Youth",
+      "subcategory": "Ministries",
+      "data": "In the mid 90s young people who encountered Jesus through the movement went back to their parishes and initiated youth groups that helped refresh life in parishes. Being a movement which is at the service of the Church, it is a constant thrust of Jesus Youth to be a catalyst in parishes, promoting a creative, Jesus Centred and evangelistic life in parishes."
+    },
+    {
+      "id": 5,
+      "title": "Professionals",
+      "category": "Jesus Youth",
+      "subcategory": "Ministries",
+      "data": "Today, the profession and the environment of work has taken on a highly significant place in our society. On the other hand it can be a place of immense stress, competition and interpersonal struggles. Professions and work environments, Jesus Youth believes, can be imbued with a new grace if approached with a Christ-centric attitude. Thus Jesus Youth Professionals is a fellowship of professionals in various walks of life, helping each other to celebrate their lives with God and fulfil their responsibility to the church and the society. Through the tough demands of different professions and corporate careers, they seek to live the gospel and proclaim His love in today\u2019s workplaces."
+    },
+    {
+      "id": 6,
+      "title": "Family",
+      "category": "Jesus Youth",
+      "subcategory": "Ministries",
+      "data": "Jesus Youth recognize the grace and power present in the sacrament of marriage and the Catholic family\u2013especially in our highly individualised society. It realises that vibrant, young and loving families are the key to transforming neighbourhoods and societies. Thus the movement today offers an effective set of initiatives, formation modules and support groups to help young families and kids live a joyful, loving, Christ-centred and evangelistic life in today\u2019s changing world."
+    }
+  ],
+  [
+    {
+      "id": 13,
+      "title": "Prayer Groups",
+      "category": "Jesus Youth",
+      "subcategory": "Friendship",
+      "data": "They form the most basic platform for prayer, teaching and fellowship. Meeting at regular intervals, these groups create a favorable environment for growth in the movement. They involve an informal but lively time of praise and worship, a spirit-filled scripture sharing, intercessions and a joyful time of interaction with each other."
+    },
+    {
+      "id": 14,
+      "title": "Cell Group",
+      "category": "Jesus Youth",
+      "subcategory": "Friendship",
+      "data": "Young people and families come together regularly for prayer and fellowship within the movement. Such progressively growing cells, with 5 to 10 members of the same gender, ensure ongoing spiritual formation and are an important platform for mutual enrichment and spiritual guidance. The small size of the cells provide the opportunity for a deeper time of sharing and listening."
+    },
+    {
+      "id": 15,
+      "title": "Households",
+      "category": "Jesus Youth",
+      "subcategory": "Friendship",
+      "data": "A Household is the fundamental unit of life in the Jesus Youth movement. Households are forums where the members in the movement come together every month for prayer, sharing, scripture reflection, catechism, and discussion on human and ecclesial realities that are relevant to a common commitment. The Jesus Youth Household can be perceived as an answer to the yearning of the movement to enter deeply into the missionary life of the Church. The movement brings out regular monthly scripture reflections which become the key spiritual material around which the household gatherings revolve."
+    },
+    {
+      "id": 16,
+      "title": "Small Groups",
+      "category": "Jesus Youth",
+      "subcategory": "Friendship",
+      "data": "These groups evolved as a response to the spiritual needs of families living in urban centres with hectic lifestyles. They are hosted in homes, offices, colleges and other spaces. With a maximum number of around 15 people, the small groups are designed to split and multiply. The Jesus Youth Prayer and Study Materials are key tools in these small group gatherings."
+    }
+  ]
 ]

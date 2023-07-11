@@ -75,17 +75,17 @@ function App(): JSX.Element {
             iconName = focused
               ? 'home'
               : 'home-outline';
-          } else if (route.name === 'More Info') {
-            iconName = focused ? 'information-circle' : 'information-circle-outline';
+          } else if (route.name === 'Messages') {
+            iconName = focused ? 'chatbubbles' : 'chatbubbles-outline';
           }
 
           return <Ionicons name={iconName} size={size} color={color} />;
         },
-        tabBarActiveTintColor: 'black',
+        tabBarActiveTintColor: '#05445E',
         tabBarInactiveTintColor: 'gray',
       })}>
       <Tab.Screen options={{ headerShown: false }} name="Home" component={HomeNav} />
-      <Tab.Screen options={{ headerShown: false }} name="More Info" component={SettingsScreen} />
+      <Tab.Screen options={{ headerShown: false }} name="Messages" component={SettingsScreen} />
       </Tab.Navigator>
     </NavigationContainer>
   );

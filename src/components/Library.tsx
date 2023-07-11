@@ -1,20 +1,14 @@
 import React, {useEffect, useState} from 'react';
-import {
-  FlatList,
-  Pressable,
-  StyleSheet,
-  Text,
-  View,
-} from 'react-native';
+import {FlatList, Pressable, StyleSheet, Text, View} from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 import {Chip, Searchbar} from 'react-native-paper';
+import {ScrollView} from 'react-native';
 
 export default function Library({route, navigation}: any) {
   const [searchQuery, setSearchQuery] = useState('');
   const [filteredData, setFilteredData] = useState([]);
 
   useEffect(() => {
-    console.log(route.params.type)
     setFilteredData(route.params.data);
   }, []);
 
@@ -58,36 +52,60 @@ export default function Library({route, navigation}: any) {
         placeholder="Search Category"
         onChangeText={handleSearchInputChange}
         value={searchQuery}
+        style={{backgroundColor: 'white'}}
         mode="view"
         showDivider
         elevation={2}
       />
-      {route.params.type=='Songs Library'?
-        <View style={styles.CupertinoFilter}>
-        <Chip
-          icon="translate"
-          style={styles.FilterChip}
-          onPress={() => handleSearchInputChange('Hindi')}>
-          Hindi
-        </Chip>
-        <Chip
-          icon="translate"
-          style={styles.FilterChip}
-          onPress={() => handleSearchInputChange('Malayalam')}>
-          Malayalam
-        </Chip>
-        <Chip
-          icon="translate"
-          style={styles.FilterChip}
-          onPress={() => handleSearchInputChange('English')}>
-          English
-        </Chip>
-      </View>
-      :<></>}
+      <ScrollView horizontal={true} style={styles.CupertinoFilter}>
+        <View style={{flexDirection: 'row', justifyContent: 'space-between'}}>
+          <Chip
+            style={styles.FilterChip}
+            onPress={() => handleSearchInputChange('')}>
+            All
+          </Chip>
+          <Chip
+            style={styles.FilterChip}
+            onPress={() => handleSearchInputChange('English')}>
+            English
+          </Chip>
+          <Chip
+            style={styles.FilterChip}
+            onPress={() => handleSearchInputChange('Hindi')}>
+            Hindi
+          </Chip>
+          {route.params.type == 'Songs Library' ? (
+            <>
+              <Chip
+                style={styles.FilterChip}
+                onPress={() => handleSearchInputChange('Malayalam')}>
+                Malayalam
+              </Chip>
+              <Chip
+                style={styles.FilterChip}
+                onPress={() => handleSearchInputChange('Liturgy')}>
+                Liturgy
+              </Chip>
+              <Chip
+                style={styles.FilterChip}
+                onPress={() => handleSearchInputChange('Worship')}>
+                Praise & Worship
+              </Chip>
+              <Chip
+                style={styles.FilterChip}
+                onPress={() => handleSearchInputChange('Action Songs')}>
+                Action Songs
+              </Chip>
+            </>
+          ) : (
+            <></>
+          )}
+        </View>
+      </ScrollView>
       <View style={styles.List}>
         <FlatList
           data={filteredData}
-          keyExtractor={item => item.id.toString()}
+          keyExtractor={(item: any) => item.id.toString()}
           renderItem={renderItem}
           style={{padding: 10}}
         />
@@ -100,18 +118,20 @@ const styles = StyleSheet.create({
   Container: {
     height: '100%',
     width: '100%',
+    backgroundColor: 'white',
   },
   Search: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
+    backgroundColor: 'white',
     margin: 30,
     padding: 5,
     borderRadius: 10,
   },
   List: {
     margin: 10,
-    height: '82%',
+    height: '80%',
   },
   ListItem: {
     marginBottom: 10,
@@ -129,10 +149,12 @@ const styles = StyleSheet.create({
   },
   CupertinoFilter: {
     flexDirection: 'row',
+    marginBottom: 5,
+    height: 130,
     padding: 10,
-    justifyContent: "space-between"
   },
   FilterChip: {
-    width: '30%',
+    marginLeft: 15,
+    height: 40,
   },
 });

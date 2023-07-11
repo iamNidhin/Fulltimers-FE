@@ -3,110 +3,208 @@
     "id": 1,
     "title": "Sign of the Cross",
     "category": "Prayer",
-    "subcategory": "Daily Prayers",
+    "subcategory": "English",
     "data": "In the name of the Father, and of the Son and of the holy Spirit. Amen."
   },
   {
     "id": 2,
     "title": "Our Father",
     "category": "Prayer",
-    "subcategory": "Daily Prayers",
+    "subcategory": "English",
     "data": "Our Father, Who art in heaven, hallowed be Thy name; Thy kingdom come; Thy will be done on earth as it is in heaven. Give us this day our daily bread; and forgive us our trespasses as we forgive those who trespass against us; and lead us not into temptation, but deliver us from evil. Amen"
   },
   {
     "id": 3,
     "title": "Hail Mary",
     "category": "Prayer",
-    "subcategory": "Daily Prayers",
+    "subcategory": "English",
     "data": "Hail Mary, Full of Grace, The Lord is with thee. Blessed art thou among women, and blessed is the fruit of thy womb, Jesus.\n\nHoly Mary, Mother of God, pray for us sinners now, and at the hour of death."
   },
   {
     "id": 4,
     "title": "Glory Be",
     "category": "Prayer",
-    "subcategory": "Daily Prayers",
+    "subcategory": "English",
     "data": "Glory Be to the Father, and to the Son, and to the Holy Spirit.\n\nAs it was in the beginning, is now, and ever shall be, world without end."
   },
   {
     "id": 5,
     "title": "The Creed",
     "category": "Prayer",
-    "subcategory": "Daily Prayers",
+    "subcategory": "English",
     "data": "I believe in God, the Father Almighty, Creator of heaven and earth, and in Jesus Christ, His only Son, our Lord, who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died and was buried; He descended into hell; on the third day He rose again from the dead; He ascended into heaven, and is seated at the right hand of God the Father Almighty; from there He will come to judge the living and the dead. I believe in the Holy Spirit, the Holy Catholic Church, the communion of Saints, the forgiveness of sins, the resurrection of the body, and life everlasting. \n Amen."
   },
   {
     "id": 6,
     "title": "The Angelus",
     "category": "Prayer",
-    "subcategory": "Daily Prayers",
+    "subcategory": "English",
     "data": "V. The Angel of the Lord declared unto Mary, \n R. And she conceived of the Holy Spirit. \n Hail Mary,  \n\n V. Behold the handmaid of the Lord. \n R. Be it done unto me according to Your Word. \n\n Hail Mary \n\n V. And the Word was made flesh, \n R. And dwelt among us. \n\n Hail Mary \n\n V. Pray for us, O holy Mother of God. \n R. That we may be made worthy of the promises of Christ. \n\n Let us pray: \n\n Pour forth, we beseech You, O Lord, \n Your Grace into our hearts; \n that as we have known the incarnation of Christ, \n your Son by the message of an angel, \n so by His passion and cross \n we may be brought to the glory of His Resurrection. \n Through the same Christ, our Lord. \n Amen. \n Glory Be.....(3) \n\n"
   },
   {
     "id": 7,
     "title": "Act of Contrition",
     "category": "Prayer",
-    "subcategory": "Daily Prayers",
+    "subcategory": "English",
     "data": "O my God, I am heartily sorry for having offended Thee, and I detest all my sins because of thy just punishments, but most of all because they offend Thee, my God, who art all good and deserving of all my love. I firmly resolve with the help of Thy grace to sin no more and to avoid the near occasion of sin. \nAmen"
   },
   {
     "id": 8,
     "title": "Hail Holy Queen",
     "category": "Prayer",
-    "subcategory": "Daily Prayers",
+    "subcategory": "English",
     "data": "Hail, holy Queen, mother of mercy, our life, our sweetness, and our hope. To thee do we cry, poor banished children of Eve. To thee do we send up our sighs mourning and weeping in this valley of tears. Turn then, most gracious advocate, thine eyes of mercy toward us, and after this our exile show us the blessed fruit of thy womb, Jesus. O clement, O loving, O sweet Virgin Mary. Amen"
   },
   {
     "id": 9,
     "title": "Memorare",
     "category": "Prayer",
-    "subcategory": "Daily Prayers",
+    "subcategory": "English",
     "data": "Remember, O most gracious Virgin Mary, that never was it known that anyone who fled to thy protection, implored thy help, or sought thine intercession was left unaided.\r\nInspired by this confidence, I fly unto thee, O Virgin of virgins, my mother; to thee do I come, before thee I stand, sinful and sorrowful. O Mother of the Word Incarnate, despise not my petitions, but in thy mercy hear and answer me.Amen"
   },
   {
     "id": 10,
     "title": "St. Michael Prayer",
     "category": "Prayer",
-    "subcategory": "Daily Prayers",
+    "subcategory": "English",
     "data": "Saint Michael the Archangel, defend us in battle. Be our protection against the wickedness and snares of the devil; May God rebuke him, we humbly pray; And do thou, O Prince of the Heavenly Host, by the power of God, thrust into hell Satan and all evil spirits who wander through the world for the ruin of souls. Amen"
   },
   {
     "id": 11,
     "title": "Prayer of St Francis of Assisi",
     "category": "Prayer",
-    "subcategory": "Daily Prayers",
+    "subcategory": "English",
     "data": "Lord make me an instrument of your peace, Where there is hatred let me sow love.  Where there is injury, pardon. Where there is doubt, faith. Where there is despair, hope. Where there is darkness, light. And where there is sadness, joy.\n\nO divine master grant that I may not so much seek to be consoled as to console; to be understood as to understand; To be loved as to love For it is in giving that we receive- it is in pardoning that we are pardoned. And it\u2019s in dying that we are born to eternal life. \nAmen."  },
   {
     "id": 12,
     "title": "Prayer to the Guardian Angel",
     "category": "Prayer",
-    "subcategory": "Daily Prayers",
+    "subcategory": "English",
     "data": "Angel of God, my guardian dear, to whom God's love commits me here, ever this day be at my side, to light and guard, to rule and guide. Amen"
   },
   {
     "id": 13,
     "title": "Protection Prayer (Precious Blood)",
     "category": "Prayer",
-    "subcategory": "Daily Prayers",
+    "subcategory": "English",
     "data": "Lord JESUS, by faith in your merits, I now take your Precious Blood and sprinkle it over myself and my family right from the crown of my head to the very soles of my feet. I claim total and complete protection for my life and my family. \n\n Lord JESUS, keep me free today from evil, sin, temptation, Satan\u2019s attacks and afflictions, fear of darkness, fear of man, sickness, diseases, doubts, anger, all calamities and from all that is not of thy Kingdom. \n\n Fill me Lord JESUS with gift of your Holy Spirit and grant me the gift of wisdom, knowledge, understanding and discernment so that I will live today in your glory by doing that which is right. \n Praise you Jesus. Thank You Jesus."  },
   {
     "id": 14,
     "title": "Daily Jesus Youth Prayer",
     "category": "Prayer",
-    "subcategory": "Daily Prayers",
+    "subcategory": "English",
     "data": "Calling on His name \n\n In the name of the father, and of the Son, and of the Holy Spirit. Amen \n V. Lord, teach us to pray. \n R. Lord, fill us with your Holy Spirit.\n V. Glory be to the Father, and to the son, and to the Holy Spirit. \n R. As it was in the beginning, is now, and ever shall be, world without end. Amen. \n (Enter into the loving presence of the Lord spending a few moments in Praise and Thanksgiving) \n\nTurning to His mercy \n Search me, O God, and know my heart!Try me and know my thoughts! And see if there be any wicked way in me, And lead me in the way everlasting! [Ps 139:23-24] \n (In silence, allow the Holy Spirit to examine your heart especially your faithfulness to God, to the Jesus Youth lifestyle/six pillars and the responsibilities God has entrusted you with). \n\n Lord Jesus, Thank you for your faithful love and your tender mercy. I want to be faithful to you and to the responsibilities you have given me. I desire to be more like you through a true living of the six pillars. In your goodness have mercy on me: Cleanse me with your precious Blood from all my sins and my unfaithfulness. Create in me a clean heart, renew within me an upright spirit and empower me with your grace. Amen. \n\nTrusting in His Grace \n\n Abba Father, I thank you for loving me in spite of my shortcomings. Jesus, my Saviour, I rejoice in your mercy that gives me a new life. Holy Spirit, my ever present Helper, I praise you for being patient with me and teaching me to walk in your way. O Triune God, may I always be aware of being being immersed in your loving presence. I surrender myself to you, especially my thoughts and my will, and gladly accept your sovereignty in my life. May I always seek your glory in my missionary journey as a Jesus Youth. \n\n (Spend a few moments in surrender, praying/singing in tongues leading to a time of silence). Optionally, read and reflect on the day's Gospel passage. \n\n Praying in communion \n\n Lord Jesus, I offer up the entire Jesus Youth movement across the world. May all its leaders be guided by your Spirit and be made one in heart and mind. I pray that every Jesus Youth may grow in your love and in so that all mankind may encounter you and walk towards the fullness of life in you. I offer my sacrifices and prayers of this day with the prayers of the Church and the Holy Eucharist celebrated all over the world for the salvation of all people and for my own personal sanctification.Abba Father, uniting myself with all Jesus Youth across the world, I cry out to you with joy. \n\n Our Father.. \n\n Going forth in joy \n\n God our Father, through the Death and Resurrection of Your Son and the outpouring of the Holy Spirit, You have given us a new life. Grant us the grace to know you more clearly, love you more dearly and follow you more nearly. We ask this through Christ our Lord. Amen. \n\n\nMary, Queen of Apostles, St. Michael the Archangel, St. Francis of Assisi, all the angels and saints - be with us and help us to grow in holiness. \n\n The Lord bless us, and keep us from all evil, and bring us to everlasting life. Amen. "
   },
   {
     "id": 15,
     "title": "Divine Mercy Chaplet",
     "category": "Prayer",
-    "subcategory": "Daily Prayers",
+    "subcategory": "English",
     "data": "Sign of the Cross \n\nYou expired Jesus, but the source of life gushed forth for souls and the ocean of Mercy, opened up for the whole world. O Fount of Life, O unfathomable Divine Mercy, envelop the whole world and empty Yourself out upon us. \n\nO Blood and Water, which gushed from the Heart of Jesus, as a fountain for us, we trust in You. (3 times 'O Blood and Water) \n\n1 Our Father,\n1 Hail Mary \nApostles' Creed \n\nOn the large bead before each decade: \nEternal Father, I offer you the body and blood, soul and divinity of your dearly beloved son, our Lord Jesus Christ, in atonement for our sins those of the whole world. \n\nOn the ten small beads before each decade \n\nL: For the sake of his sorrowful passion \nR: Have mercy on us and on the whole world. (10 times) \n\nConclusion: \nHoly God, Holy Mighty One, Holy Immortal One, have mercy on us and on the whole world. (3 times). \n\n Eternal God, in whom Mercy is endless, and the treasury of compassion inexhaustible. Look kindly upon us and increase your Mercy in us, so that in difficult moments, we may not despair nor become despondent but with great confidence, submit ourselves to Your Holy Will, which is Love and Mercy itself. Amen."
   },
   {
     "id": 16,
     "title": "Rosary",
     "category": "Prayer",
-    "subcategory": "Daily Prayers",
+    "subcategory": "English",
     "data": "Sign of The Cross \n\nCreed \n\nOur Father \n\n3 Hail Mary (For Faith, Hope & Love) \n Glory Be \n\n(After each Decade) \nO My Jesus, save us from the fire of hell, lead all souls to heaven especialy those most in need of mercy. \n\nJoyful Mystery of the Rosary (Monday & Saturday) \n 1 The Annunciation of the Lord to Mary \n 2 The Visitation of Mary to Elizabeth \n 3 The Nativity of our Lord Jesus \n 4. The Presentation of our Lord \n 5. Finding Jesus in the Temple\n\nSorrowful Mystery of the Rosary (Tuesday & Friday) \n\n 1.The Agony of Jesus in the Garden\n 2. The Scourging at the Pillar\n 3. Jesus is Crowned with Thorns\n 4. Jesus Carried the Cross\n 5. The Crucifixion of our Lord. \n\nGlorious Mystery of the Rosary \n( Wednesday & Sunday) \n\n 1. The Resurrection of Jesus Christ \n 2. The Ascension of Jesus to Heaven.\n 3. The Descent of the Holy Ghost. \n 4. The Assumption of Mary into Heaven\n 5. Mary is Crowned as Queen of Heaven and Earth \n\nLuminous Mystery of the Rosary \n(Thursday)\n\n 1. The Baptism in the Jordan \n 2. The Wedding at Cana \n 3. The Proclamation of the Kingdom \n 4. The Transfiguration \n 5. The Institution of the Eucharist \n\n Hail, Holy Queen, Mother of Mercy,  our life, our sweetness and our hope. To you do we cry, poor banished children of Eve. To you do we send up our sighs, mourning and weeping in this valley of tears. Turn then, most gracious advocate, your eyes of mercy toward us, and after this exile show unto us the blessed fruit of thy womb, Jesus O clement, O loving,O sweet Virgin Mary \n\nLitany of Our Lady \n\nLord, have mercy on us. \nChrist, have mercy on us. \nLord, have mercy on us. \nChrist hear us. Christ, graciously hear us. \n\nGod the Father of heaven, \nHave mercy on us. \nGod the Son, Redeemer of the world, \nHave mercy on us. \nGod the Holy Spirit, \nHave mercy on us. \nHoly Trinity, one God, Have mercy on us. \n\n Holy Mary,  Pray for us. \n(repeat after each line) \n Holy Mother of God, \n Holy Virgin of virgins, \n Mother of Christ, \n Mother of the Church, \n Mother of mercy, \n Mother of divine grace, \n Mother of hope, \n Mother most pure, \n Mother most chaste, \n Mother inviolate, \n Mother undefiled, \n Mother most amiable, \n Mother most admirable, \n Mother of good counsel, \n Mother of our Creator, \n Mother of our Savior, \n Virgin most prudent, \n Virgin most venerable, \n Virgin most renowned, \n Virgin most powerful, \n Virgin most merciful, \n Virgin most faithful, \n Mirror of justice, \n Seat of wisdom, \n Cause of our joy, \n Spiritual vessel, \n Vessel of honor, \n Singular vessel of devotion, \n Mystical rose, \n Tower of David, \n Tower of ivory,\n House of gold, \n Ark of the covenant, \n Gate of heaven, \n Morning star, \n Health of the sick, \n Refuge of sinners, \n Comfort of Migrants, \n Comforter of the afflicted, \n Help of Christians, \n Queen of Angels, \n Queen of Patriarchs, \n Queen of Prophets, \n Queen of Apostles, \n Queen of Martyrs, \n Queen of Confessors, \n Queen of Virgins, \n Queen of all Saints, \n Queen conceived without original sin, \n Queen assumed into heaven, \n Queen of the most holy Rosary, \n Queen of Families, \n Queen of Peace, \n\nLamb of God, you take away the sins of the world, Spare us, O Lord. \nLamb of God, you take away the sins of the world, Graciously hear us, O Lord. \nLamb of God, you take away the sins of the world, Have mercy on us. \n\nPray for us, O holy Mother of God, That we may be made worthy of the promises of Christ. \n\n Let us pray, \nGrant, we beseech you, Lord God, that we your servants may rejoice in continual health of mind and body and, by the glorious intercession of Blessed Mary, ever Virgin, may we be delivered from present sorrow to delight in joy eternal. Through Christ our Lord. Amen."
+  },
+  {
+    "id": 17,
+    "title": "Kroos Ka Chinh",
+    "category": "Prayer",
+    "subcategory": "Hindi",
+    "data": "Pita aur Putra aur Pavitra Aatma ke naam Par! \nAmen."
+  },
+  {
+    "id": 18,
+    "title": "Prabhu Ki Vinanti",
+    "category": "Prayer",
+    "subcategory": "Hindi",
+    "data": " Hei humare Pita, jo swarg me hai, tera naam pavitra maana jaaye, tera rajya aave, teri icha jese swarg me hai, vese prithvi par bhi puri ho. Humara pratidin ka aahar aaj hume de aur humare apraadh hume kshama kar, jese hum bhi apne apraadhiyom ko kshama karte hai aur hume pariksha me na daal, parantu burai se bacha. Amen."
+  },
+  {
+    "id": 19,
+    "title": "Pranaam Mariya",
+    "category": "Prayer",
+    "subcategory": "Hindi",
+    "data": "Pranaam Mariya, Kripapurn, prabhu tere saath hai, dhany tu striyom me aur dhany tere garbh ka phal yeshu.\n\nHei sant Mariya, Parmeshwar ki maa, prarthana kar hum papiyom ke liye, ab aur humare marne ke samay. Amen."
+  },
+  {
+    "id": 20,
+    "title": "Prabhu ke Doot",
+    "category": "Prayer",
+    "subcategory": "Hindi",
+    "data": "Prabhu ke doot ne Mariya ko sandesh diya.\n\n Aur vah pavitra aatma se garbhvati hue. Pranaam Mariya……\n\nDekh, mai prabhu ki daasi hu.\n\nTera kathan mujhme pura ho. Pranaam Mariya……\n\nAur shabd deh banna.\n\nAur humare bich me raha. Pranaam Mariya……\n\nAe Ishwar ki pavitra Maa, humare liye prarthana kar ki hum Khrist Ki pratignyao ke yogy ban jaaye."
+  },
+  {
+    "id": 21,
+    "title": "Paschataap ki vinanti",
+    "category": "Prayer",
+    "subcategory": "Hindi",
+    "data": "Hei mere Ishwar / mene teri aseem bhalai aur mahima ke virudh apraadh kiya hai. Hei Prabhu, me sampurn dil se paschataap karta hu. Me tujhse pyaar karta hu / aur paap se dhruna karta hu. Me udaas hu / ki mere paap se meri aatma nasht hokar / narkaagni ban gayi. Me yah dridh pratigya karta hu / ki teri aseem kripa se me paap aur paap prernao ko chodd dunga / aur kabhi bhi paap nahi karunga."
+  },
+  {
+    "id": 22,
+    "title": "Pranaam Rani",
+    "category": "Prayer",
+    "subcategory": "Hindi",
+    "data": "Pranaam raani, daya ki maa / humara Jeevan, humari madhurta aur aasha / tujhe pranaam. Hum, Hevaa ki nirvaasith santaan / tujhe pukarte hai. Hum iss dukh purna sansaar mein roteh / aur vilaap karte hue / tera naam lete hai. Hei humari mata! Krupiya hum par dayadrishti kar. Aur humare iss nirvaasan ke baad / apne garb ka Pavitra phal / Yeshu hume diga. Hei dayalu! Hei Premmayi ! Hei Madhur kuwari mariya!"
+  },
+  {
+    "id": 23,
+    "title": "Yaad kar vinanti",
+    "category": "Prayer",
+    "subcategory": "Hindi",
+    "data": "Hei param dayalu kuwari Mariya  / yaad kar ki yah kabhi sunne me nahi aaya ki koe teri madad maangne aur teri vintiyo ki sahayta khojne tere paas aaya / aur tujhse asahay chodda gaya ho. Hei kuwariyom ki kuwari / hei meri maa / issi aasre se hi me tere paas daud aata hu / aur paapi ke roop me tere saamne khada hu. Hei Ishwar ke shabd ki maa / mere shabdo ko asweekar mat kar / par daya se unko sunn aur pura kar. Amen."
+  },
+  {
+    "id": 24,
+    "title": "Prayrito ka dharamsaar",
+    "category": "Prayer",
+    "subcategory": "Hindi",
+    "data": "Hum swarg aur Prithvi ke sristhikarta sarvashaktimaan pita Ishwar mein / vishwaas karta hai / aur uske eklaute putra humare prabhu Yeshu Kristh mein / hum vishwaas karte hai / joh pavitra aatma ke dwara garabh me aaya / aur kuwari Mariya se janma / usne Pontius pilaatus ke shahsankal  mein dukh bhoga. Vaha kruss par chadhaya gaya / mar gaya / dafnaya gaya / aur adholok mein utra. Vaha teesre din mrutko mein se jee utha / swarg gaya / sarvashaktimaan pita Ishwar ke dahine viraajmaan hai / aur vahaa se vaha jeevito aur mrutko ka nyaay karne ko / phir se aayega. Hum Pavitra aatma / Pavitra Catholic Kaleesiya / Dharmiyo ki sahabhagyata / paapo ki Kshama / sharer aur punaruthaan / aur ananth Jeevan mein vishwaas karte hai. Amen."
+  },
+  {
+    "id": 25,
+    "title": "Santh Michael se Prathana",
+    "category": "Prayer",
+    "subcategory": "Hindi",
+    "data": "Hei pradaan duth santh Michael, swargiya sevako ke atishaktishali neta, Aakash ke adhikariyo aur sabhi dushtaatmao ke virudh ho rahi iss yudh mein humari sahayata kijiye. Ishwar ne  jin manushyao ko apne sadrisha  banaya aur bada mulya chuka kar mol liya, unn manushyo ko shaitaan ki adheenta se bachaane aaiye. Aapko hi kaleesiya apna palankarta aur samrakhshak manti hai. Masih ne jin aatmao ko bachaya, unhe swarg ki aur le jaane ki jimmedari aapko hi mila hai. Isliye shigrah hi shaitaan ko humare pairo-talee kuchalne ke liye aap humare liye shanti ke Ishwar se prathana kijiye. Shaitaan kabhi bhi manushyo ko apne adhikaar mein na kar paye aur kaleesiya par atiyachaar na kar paaye. Pita parameshwar ki daya jald hi hum par utre, iske liye aap humari yaachnaaoo ko sarvochh Ishwar ke saamne pahucha dijiye. Shaitaan, jisse dusht jaanwar aur puritan sarp kehte hai, use baandhkar narak mein daba dijiye. Vaha phir kabhi logo ko na batkaaye. Amen"
+  },
+  {
+    "id": 26,
+    "title": "Jesus Youth ki dainik prarthana",
+    "category": "Prayer",
+    "subcategory": "Hindi",
+    "data": "Ishwar ko pukarte\n\nPita, Putra aur Pavitra atmaa ke naam par. Amen.\n\nV. Hei Prabhu, hume prathana karna sikha.\n R. Hei Prabhu, hume Pavitra aatma se bhar de.\n V. Pita, Putra aur Pavitra aatma ki mahima ho.\n R. Jaise vaha aadi mein thi aur ananthkal tak sada rahegi.\n(Stuthi aur Dhanyavaaf ke saath Ishwar ki prem bhari upasthiti mein kuch kshan bitaye)\n\nPrabhu ki karuna ki aur dhyan kendrith kare\n\nIshwar! Mujhe parakh kar  mere hridya ko pehchan le; mujhe jaavh kar meri chintaaoo ko jaan le. Meri rakhwali kar, jisse mein kumarg par pair na rakhu; mujhe annant Jeevan ke marg par le chal.\n Stotra granth 139:13-14 \n(Shaanti se Pavitra aatma  ko apna hridya, visheshkar Ishwar aur Jesus Youth Jeevan Shaili ke 6 buniyadi aadharo ke prati apni vafadaari aur Ishwar dwara di gyi jimedaariyo ke prati apni imaandari ko parakne ki anumati de.)\n\n Hei Prabhu Yeshu, aapko sache prem aur karuna ke liye dhanyavaad. Mein aapke aur aapke dwara di gayi jimmedariyo ke prati imaandar rehna chahta hu. Mein 6 buniyadi staabho ko saachayi se jeene ke dwara mein aapki tara banna chahti hu. Apni balahi me mujh par daya kar.Apni daya aur Pavitra rakt se mere paapo  aur avishwasniyta ko dho de. Ishwar! mera hridya phir shudh kar aur mera mann phir sudridhh bana. Amen.\n\nPrabhu ke anugrah par viswash rakhte hue\n\nAbba pita, mein aapko dhanyavaad deta hu ki aapne meri kamzoriyon ke baavjudh mujse pyar kiya.Hei mere muktidaata  Yeshu, mein teri navjeevan Pradhan karne wali karuna me aanandit hu. Hei mere sahayak Pavitra aatma, mujh par saaiyam aur tere maarg par chalne ki shiksha dene ke liye, mein teri stuthi karta hu. Hei tritva Ishwar, teri premmay upastithi mein ewhnw ka aabhas mujhe sada rahe.Mein apne aapko visheskar apni soch aur iccha ko samarpit kar, Khushi se teri prabhuta swikar karta hu. Ek Jesus Youth ki missionary yatra mein main humesha teri mahima ko khoj sakhu.\n\n (Aniya bhasha mein prathana/ geet gaate hue kuch kshan samarpan mein bitaye aur manan kare.)\n Vaikalpik rup se dainik susamachar path kp, padh kar manan chinta kare.\n\nSahabhagita ki prathana\n\nPrabhu Yeshu, mein sansaar bhar mein faeli Jesus Youth movement ko samarpit karta hu.Movement ke sabhi leaders ko apni aatma se ek mann aur hrdiya kar. Mein prathana karta hu  ki pratyek Jesus Youth aapke prem, aur missionary utsah mein badhe, taaki saari maanav jaati aapka Anubhav karke Jeevan ki paripurnata ki aur agrasar ho. Mein sansaar ke sabhi aaj ke sangarsho aur prathanaao ke saath, Pavitra missah balidaan aur kaleesiya ki sabhi prathanaao ke swara, samarpit karta hu.\n Abba pita mein sansaar bhar ke Jesus Youth ke saath sayukth ho kar Khushi se aapko pukarta hu.\n Hei Pita humare\n\nKhushi se aage badhte hue\n\nHei pita parameshwar, aapne hume apne putra ki mrtyu, punaruthaan au Pavitra aatma ke aagman ke dwara nav Jeevan pradaan kiya hai.Krupiya kar ki hum adhik spashtata kareeb se tere piche chl sake.Amen.\n\n Prerito ki raani maa Mariya, santh Michael mahaduut, Assisi ke santh Francis, sabhi swargdutoh aur santho-pavitrataa mein badhne ke liye humari saahaykta kare.\n\n Prabhu hume Aashish de, sabhi buraiyon se hume bachaaye, aur ananth Jeevan pradaan kare. Amen."
+  },
+  {
+    "id": 27,
+    "title": "Assisi ke Santh Francis ki prathana",
+    "category": "Prayer",
+    "subcategory": "Hindi",
+    "data": "Hei prabhu mujko aapni shaanti ka saadhan bana le.\nJaha ghruna ho, vaha me Preeti bhar du,\n Jaha aaghat ho, vaha shama bhar du aur \n Jaha shankaa ho, vaha  vishwaas bhar du,\n Mujhe aisa var de,\n Ki jaha niraashaa ho, vaha me aasha jagaah du,\n Jaha andhkaar ho, vaha me jyoti jagaah du,\n Jaha Khinnata ho, harsh bhar du.\n Oh swami, mujko ye var de ki, mein santwana paane ki aasha na karu, santwana deta rahu.  \n Samaj jaane ki aasha na karu, samjtaa hi rahu.\n Pyaar pane ki aasha na rakhu, pyaar deta hi rahu.\n Tyaag ke dwara hi praapti hoti he.\n Shama ke swara hi shama milti he.\n Mrtiyu ke dwara hi anantt Jeevan milta he.\n Amen."
+  },
+  {
+    "id": 28,
+    "title": "Abhibhavak dhevadhooth prarthna",
+    "category": "Prayer",
+    "subcategory": "Hindi",
+    "data": "Hei ati shaktishaali mahadoot santh Michael ! Ladai ke samay humari raksha kar Shaitan ke fando aur kutantro ke virudh humara raksha Kendra avam surakhshit gaddh ban Jaa.Hum Vinamrata se prathana Kate hai, swargasta senaao ke adhyaksh, Ishwar ki shakti se shaitaan tatha saare bure bhoot-pretho ko narak me dhakel de joh iss sansaar mein atmaao ke vinaash ke liye ghumte phirte hai.\n Amen."
+  },
+  {
+    "id": 29,
+    "title": "Ishwariya daya ki mala vinti",
+    "category": "Prayer",
+    "subcategory": "Hindi",
+    "data": "Prerittko ka dharamsaar…..Hei humare pita….Pranam Mariya\n\n Hei shaaswat pita, mein apne tatha saari duniya ke paapo ke prayaschit ke liye aapke param priyaa putra humare prabhu Yeshu Christ(Kristh) ke , pavitra shareer avam rakt, aatma avam ishwartwa aapko chadhata hu.\n Aguvaa- Humare prabhu Yeshu Christ(Kristh) ke ghor dukh bhog ke dwara\n Sab- Hum par aur saare sansaar par daya kar. (10 bar)\n Anth mein – Pavitra Ishwar, Pavitra Sarvashaktimaan, Pavitra Amar, hum par aur saare sansaar par daya kar. (3 bar)"
+  },
+  {
+    "id": 30,
+    "title": "Mata Mariyam Ki mala-vinti",
+    "category": "Prayer",
+    "subcategory": "Hindi",
+    "data": "Pita aur Putra aur Pavitra aatma ke naam par.Amen.\n\nPrayritoka dharamsaar \n\nHum swarg aur Prithvi ke sristhikarta sarvashaktimaan pita Ishwar mein / vishwaas karta hu…….\n\nHei Pita humare….\n\nPranaam Mariya…(3 baar bole)\n\nPita aur Putra aur Pavitra aatma ki baddhai hove …..\n\nAanad ke panch bhedh \n(Somvaar aur shanivaar ko)\n\n1.Gabriel duth Mariyam ko sandhesh dete h.\n2.Mariyam Elizabeth se bheth karti h.\n3.Humare Prabhu Yeshu janma lete hai.\n4.Balak Yeshu mandir mein chadhayee jaate hai.\n5.Balak Yeshu mandir me paaye jaate hai.\n\nJyoti ke panch bhedh\n(Guruvar ko)\n\n1.Yardan nadi mein Yeshu baptisma graham karte hai.\n2.Kaana ke vivaah bhoj mein Yeshu aapne aap ko prakatt karte hai.\n3.Mann-parivartan ke aavaahan ke saath Yeshu Ishwar ke rajya ki ghoshna karte hai.\n4.Yeshu ka rupantaran ho jata hai.\n5.Passka  rahasiya ki saanskarik abhivyakti ke roop mein Yeshu Eucharist ki sthapana karte hai.\n\nDukh ke panch bhedh \n(Mangalwar aur shukrvaar ko)\n\n1.Baari mein Yeshu ki prannpida\n2.Yeshu Kodho se maare jaate hai\n3.Yeshu ko kaato ka mukut pehnaya jaata hai.\n4.Yeshu Kruss dhote hai.\n5.Yeshu Kruss par thhoke jaate aur mar jaate hai.\n\nMahima ke panch bhedh\n(Budhvaar aur ravivaar ko) \n\n1.Yeshu mrutko se jee uthte hai.\n2.Yeshu swarg chadhte hai.\n3.Pavitra aatma prayrito par utarte hai.\n4.Mariyam swarg meinutha li jaati hai.\n5.Mariyam swarg mein raani ka mukut paati hai.\n\nHar rahsiya ke baad \n\n Ek “Hei humare Pita” das “Pranaam Mariya”, ek “Pita aur Putra aur Pavitra aatma ki baddhai hove” aur niche di gayi prathana bolna hai.\n\n“Hei mere Yeshu, mere paapo ko Kshama kijiye, narakki agni se hume bachaiye, saari aatmaoo ko  , visheskar jinhe aapki Krupa ki atyant aavshakta hai, unhe swarf mein le jaa.”\n\nHum Prathana kare\n\n Hei parameshwar. Jiske eklaute Putra ne apne Jeevan, mrtyu aevam punaruthaan se humare liye annant Jeevan prapth kiya hai, hum tujse vinti karte hai ki Pavitra kuwari mariya ki ati Pavitra mala ke inn bhedho par dhyaan karte hue joh kuch vai sikhate hai hum unka anusaran kare, aur jinki vai pratigya karte hai, unko prapt kare.Unhi humare Prabhu Kristh ke dwara. Amen.\n\nKuwari Mariyam se aavaahan Prathana \n\nHei Prabhu! Hum par daya kar.\nHei Kristh! Hum par daya kar.\nHei Prabhu! Humari prathana sun.\nHei Kristh! Humari prathana purnn kar.\nHei Swargvassi Pita Ishwar! Hum par daya kar.\nHei Putra Ishwar! Hum par daya kar.\nHei Pavitra aatma Ishwar! Hum par daya kar.\nHei Pavitra Triiek Ishwar! Hum par daya kar.\nHei santh Mariyam! Humare liye  kar.\nHei parameshwar ki Pavitra Janani!\nHei kuwariyo ki Pavitra kuwari!\nHei kristh ki mataa!\nHei Ishwariya Krupa ki mataa!\nHei pavitratam mataa!\nHei atyant vishudh mataa!\nHei akshata mataa!\nHei nishkalank mataa!\nHei dulhari mataa!\nHei prashasniya mataa!\nHei susammati ki mataa!\nHei srjanhar ki mataa!\nHei muktidata ki mataa!\nHei atyant budhimati kuwari!\nHei aadharniya kuwari!\nHei vandaniya kuwari!\nHei shaktimati kuwari!\nHei dayalu kuwari!\nHei vishvasniya kuwari!\nHei dharma ke darpan!\nHei gyaan ka sihaasan!\nHei humare aanand ke mulstrotra!\nHei aadhyaatimk paatra!\nHei aadhar ke paatra!\nHei aadhar ke paatra!\nHei bhakti ke utam patra!\nHei rahasiyapurn gulaab!\nHei daud ke gadh!\nHei haathi death ke gadh!\nHei sone ke ghar!\nHei sandhi ki Manjusha!\nHei swarg ke dwar!\nHei Prabhat ka tare!\nHei bimaaro ki kushalta!\nHei paapiyon ki sharun!\nHei dukhiyon ki saantwana!\nHei Kristbhakton ke aashray!\nHei swargduto ki rani!\nHei dharmapurkho ki rani!\nHei nabiyo ki rani!\nHei prayrito ki rani!\nHei lahugavahoo ki rani!\nHei dharmagavahoo ki rani!\nHei sab santho ki rani!\nHei aadhipaap bina garb mein pravishtt rani!\nHei swarg mein udhgrahit rani!\nHei atyant Pavitra mala ki rani!\nHei shaanti ki rani!\nHei parameshwar ke memne! \n\nTu sansaar ke papa har leta h. Hei Prabhu, hume Kshama kar!\nHei parameshwar ke memne!\nTu sansaar ke papa har leta h. Hei Prabhu, humari prathana purna kar!\n Hei parameshwar ke memne! \nTu sansaar ke papa har leta h. Hei Prabhu, hum par kar!\n\nHei Parameshwar ki Pavitra Maa! Humare liye prathana kar, Ki hum Kristh ke pratigyaoon ke yogyaban jaaye!\n\n Hum Prathana kare\n\n Hei Prabhu Parameshwar! Krupiya inn sevako ko vaha shakti Pradaan kar ki hum sadev tan-man se chhainn kare aur nitya kuwari Mariyam ki prathana dwara iss lok ki udaasinta se mukt hokar aanant sukh prapt kare. Humare Prabhu Kristh ke dwara.\n Amen"
   }
 ]

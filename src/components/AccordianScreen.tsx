@@ -17,9 +17,10 @@ const AccordianScreen = ({route, navigation}: any) => {
       title={item[0].subcategory}
       // left={props => <List.Icon {...props} icon="folder" />}
       titleStyle={{fontWeight: '700', fontSize: 21}}>
-      {item.map((element: any) => (
+      {item.map((element: any, index: any) => (
         <>
           <List.Item
+            key={element.id}
             title={element.title}
             titleStyle={{fontWeight: '700', fontSize: 20}}
           />
