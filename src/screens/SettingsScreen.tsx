@@ -14,7 +14,7 @@ export default function SettingsScreen() {
 
   const getData = async () => {
     const res = await getAnnouncements() as unknown
-    setData(res);
+    if(res!=null){setData(res);}
   } 
 
   useEffect(() => {
