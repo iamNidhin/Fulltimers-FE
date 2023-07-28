@@ -78,6 +78,7 @@ function App(): JSX.Element {
           } else if (route.name === 'Messages') {
             iconName = focused ? 'chatbubbles' : 'chatbubbles-outline';
           }
+         
 
           return <Ionicons name={iconName} size={size} color={color} />;
         },
@@ -85,6 +86,7 @@ function App(): JSX.Element {
         tabBarInactiveTintColor: 'gray',
       })}>
       <Tab.Screen options={{ headerShown: false }} name="Home" component={HomeNav} />
+      <Tab.Screen options={{ headerShown: false }} name="Missionary Plus" component={HomeNav} />
       <Tab.Screen options={{ headerShown: false }} name="Messages" component={SettingsScreen} />
       </Tab.Navigator>
     </NavigationContainer>

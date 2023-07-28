@@ -8,6 +8,7 @@ import prayerData from '../dummydata/prayers.json';
 import activitiesData from '../dummydata/activities.json';
 import jyData from '../dummydata/jy.json';
 import massData from '../dummydata/holymass.json';
+import { Button } from 'react-native-paper';
 
 export default function HomeScreen({navigation}: any) {
 
@@ -44,7 +45,8 @@ export default function HomeScreen({navigation}: any) {
 
   return (
     <View style={styles.Container}>
-      <Text style={styles.Welcome}>Welcome Missionary !</Text>
+      <Text style={styles.Welcome}>Welcome Missionary !
+      </Text>
       <ScrollView>
         <MenuComponentWide
           navigation={navigation}
