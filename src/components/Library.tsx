@@ -42,12 +42,7 @@ export default function Library({route, navigation}: any) {
           })
         }>
         <Text style={styles.ListText}>{item.title}</Text>
-        <Icon
-          name="play"
-          size={20}
-          style={{marginLeft: 10, flex: 1}}
-          color="black"
-        />
+        <Icon name="play" size={20} style={styles.IconStyle} color="black" />
       </Pressable>
     </View>
   );
@@ -58,13 +53,13 @@ export default function Library({route, navigation}: any) {
         placeholder="Search Category"
         onChangeText={handleSearchInputChange}
         value={searchQuery}
-        style={{backgroundColor: 'white'}}
+        style={styles.Searchbar}
         mode="view"
         showDivider
         elevation={2}
       />
       <ScrollView horizontal={true} style={styles.CupertinoFilter}>
-        <View style={{flexDirection: 'row', justifyContent: 'space-between'}}>
+        <View style={styles.RowSpaceBetween}>
           <Chip
             style={styles.FilterChip}
             onPress={() => handleSearchInputChange('')}>
@@ -80,7 +75,7 @@ export default function Library({route, navigation}: any) {
             onPress={() => handleSearchInputChange('Hindi')}>
             Hindi
           </Chip>
-          {route.params.type == 'Songs Library' ? (
+          {route.params.type === 'Songs Library' ? (
             <>
               <Chip
                 style={styles.FilterChip}
@@ -113,7 +108,7 @@ export default function Library({route, navigation}: any) {
           data={filteredData}
           keyExtractor={(item: any) => item.id.toString()}
           renderItem={renderItem}
-          style={{padding: 10}}
+          style={styles.FlatListStyle}
         />
       </View>
     </View>
@@ -162,5 +157,19 @@ const styles = StyleSheet.create({
   FilterChip: {
     marginLeft: 15,
     height: 40,
+  },
+  IconStyle: {
+    marginLeft: 10,
+    flex: 1,
+  },
+  FlatListStyle: {
+    padding: 10,
+  },
+  Searchbar: {
+    backgroundColor: 'white',
+  },
+  RowSpaceBetween: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
   },
 });
