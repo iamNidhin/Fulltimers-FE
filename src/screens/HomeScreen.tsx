@@ -18,7 +18,7 @@ export default function HomeScreen({navigation}: any) {
 
   const getData = async (url: any) => {
     const res = await fetchData(url);
-    if (res.length != 0) {
+    if (res.length !== 0) {
       switch (url) {
         case 'prayers':
           setPrayers(res);
