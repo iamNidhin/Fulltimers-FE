@@ -1,8 +1,14 @@
 import React, {useEffect, useState} from 'react';
-import {FlatList, Pressable, StyleSheet, Text, View} from 'react-native';
-import Icon from 'react-native-vector-icons/FontAwesome5';
+import {
+  FlatList,
+  Pressable,
+  ScrollView,
+  StyleSheet,
+  Text,
+  View,
+} from 'react-native';
 import {Chip, Searchbar} from 'react-native-paper';
-import {ScrollView} from 'react-native';
+import Icon from 'react-native-vector-icons/FontAwesome5';
 
 export default function Library({route, navigation}: any) {
   const [searchQuery, setSearchQuery] = useState('');
@@ -10,7 +16,7 @@ export default function Library({route, navigation}: any) {
 
   useEffect(() => {
     setFilteredData(route.params.data);
-  }, []);
+  }, [route.params.data]);
 
   const handleSearchInputChange = (text: string) => {
     setSearchQuery(text);

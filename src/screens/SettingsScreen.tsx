@@ -1,60 +1,73 @@
-import React, { useEffect, useState } from 'react';
-import {Image, Linking, ScrollView, StyleSheet, Text, View} from 'react-native';
-import { getAnnouncements } from '../api/messageApi';
+import React, {useEffect, useState} from 'react';
+import {Linking, ScrollView, StyleSheet, Text, View} from 'react-native';
+import {getAnnouncements} from '../api/messageApi';
 
 export default function SettingsScreen() {
-
-  interface data {
-    title: string,
-    message: string,
-    links: string,
+  interface Data {
+    id: number;
+    title: string;
+    message: string;
+    links: string;
   }
 
-  const [data,setData] = useState([])
-
-  const getData = async () => {
-    const res = await getAnnouncements() as unknown
-    if(res!=null){setData(res);}
-  } 
+  const [data, setData] = useState<Data[]>([]);
 
   useEffect(() => {
+    const getData = async () => {
+      const res = await getAnnouncements();
+      if (res != null && Array.isArray(res)) {
+        setData(res as Data[]);
+      }
+    };
+
     getData();
-  }, [])
-  
+  }, []);
 
   return (
     <ScrollView style={styles.Container}>
-      <Text style={[styles.ImageButtonText,{color:"#05445E", fontWeight:"600"}]}>Wishes and Thoughts</Text>
-      {data.length!=0?
-      data.map((item:data)=>
-      <View style={[styles.ImageButton, styles.shadowProp]}>
-        {item.title?<Text style={styles.ImageButtonText}>{item.title}</Text>:<></>}
-        {item.message?<Text style={styles.ImageButtonText}>"{item.message}"</Text>:<></>}
-        {item.links?<Text style={{}}
-        onPress={() => Linking.openURL(item.links)}
-        >
-        Click Here for more
-      </Text>:<></>}
-      </View>
-      )
-      :<></>}
+      <Text style={styles.HeaderText}>Wishes and Thoughts</Text>
+      {data.length !== 0 ? (
+        data.map((item: Data) => (
+          <View key={item.id} style={[styles.ImageButton, styles.shadowProp]}>
+            {item.title ? (
+              <Text style={styles.ImageButtonText}>{item.title}</Text>
+            ) : (
+              <></>
+            )}
+            {item.message ? (
+              <Text style={styles.ImageButtonText}>"{item.message}"</Text>
+            ) : (
+              <></>
+            )}
+            {item.links ? (
+              <Text style={{}} onPress={() => Linking.openURL(item.links)}>
+                Click Here for more
+              </Text>
+            ) : (
+              <></>
+            )}
+          </View>
+        ))
+      ) : (
+        <></>
+      )}
     </ScrollView>
   );
 }
 
 const styles = StyleSheet.create({
-  Container:{
-    padding:10,
-    height:"100%",  
-    backgroundColor:"white"
+  Container: {
+    padding: 10,
+    height: '100%',
+    backgroundColor: 'white',
   },
   ImageButton: {
     width: '100%',
-    marginTop:25,
+    marginTop: 25,
     borderRadius: 15,
     backgroundColor: '#05445E',
     overflow: 'hidden',
-    padding:15,
+    padding: 15,
   },
   shadowProp: {
     shadowColor: 'black',
@@ -67,14 +80,21 @@ const styles = StyleSheet.create({
     fontSize: 20,
     color: '#D4F1F4',
     fontWeight: '700',
-    textAlign:'justify',
+    textAlign: 'justify',
     alignSelf: 'center',
   },
   ImageButtonText: {
     fontSize: 20,
     color: '#D4F1F4',
-    textAlign:'justify',
+    textAlign: 'justify',
     fontWeight: '400',
+    alignSelf: 'center',
+  },
+  HeaderText: {
+    color: '#05445E',
+    fontWeight: '600',
+    fontSize: 20,
+    textAlign: 'justify',
     alignSelf: 'center',
   },
 });
