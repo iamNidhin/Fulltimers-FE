@@ -100,11 +100,6 @@ function App(): JSX.Element {
         />
         <Tab.Screen
           options={{headerShown: false}}
-          name="Missionary Plus"
-          component={HomeNav}
-        />
-        <Tab.Screen
-          options={{headerShown: false}}
           name="Messages"
           component={SettingsScreen}
         />
