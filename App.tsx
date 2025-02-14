@@ -7,7 +7,7 @@ import AccordianScreen from './src/components/AccordianScreen';
 import DetailsScreen from './src/components/DetailsScreen';
 import Library from './src/components/Library';
 import ResponsePrayer from './src/components/ResponsePrayer';
-import HomeScreen from './src/screens/HomeScreen';
+import NewHomeScreen from './src/screens/NewHomeScreen';
 import SettingsScreen from './src/screens/SettingsScreen';
 
 const Stack = createNativeStackNavigator();
@@ -20,9 +20,16 @@ const HomeNav = () => {
         options={{
           headerShown: false,
         }}
+        name="NewHomeScreen"
+        component={NewHomeScreen}
+      />
+      {/* <Stack.Screen
+        options={{
+          headerShown: false,
+        }}
         name="HomeScreen"
         component={HomeScreen}
-      />
+      /> */}
       <Stack.Screen
         options={{
           headerShown: false,
@@ -98,11 +105,11 @@ function App(): JSX.Element {
           name="Home"
           component={HomeNav}
         />
-        <Tab.Screen
+        {/* <Tab.Screen
           options={{headerShown: false}}
           name="Messages"
           component={SettingsScreen}
-        />
+        /> */}
       </Tab.Navigator>
     </NavigationContainer>
   );
