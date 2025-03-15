@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
   },
   TitleText: {
     fontWeight: '700',
-    fontSize: 30,
+    fontSize: 25,
     marginTop: 20,
     color: 'red',
   },

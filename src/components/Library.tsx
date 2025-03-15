@@ -1,14 +1,6 @@
 import React, {useEffect, useState} from 'react';
-import {
-  FlatList,
-  Pressable,
-  ScrollView,
-  StyleSheet,
-  Text,
-  View,
-} from 'react-native';
-import {Chip, Searchbar} from 'react-native-paper';
-import Icon from 'react-native-vector-icons/FontAwesome5';
+import {FlatList, Pressable, StyleSheet, Text, View} from 'react-native';
+import {Searchbar} from 'react-native-paper';
 
 export default function Library({route, navigation}: any) {
   const [searchQuery, setSearchQuery] = useState('');
@@ -42,75 +34,72 @@ export default function Library({route, navigation}: any) {
           })
         }>
         <Text style={styles.ListText}>{item.title}</Text>
-        <Icon name="play" size={20} style={styles.IconStyle} color="black" />
       </Pressable>
     </View>
   );
 
   return (
     <View style={styles.Container}>
-      <Searchbar
-        placeholder="Search Category"
-        onChangeText={handleSearchInputChange}
-        value={searchQuery}
-        style={styles.Searchbar}
-        mode="view"
-        showDivider
-        elevation={2}
-      />
-      <ScrollView horizontal={true} style={styles.CupertinoFilter}>
+      {/* <ScrollView horizontal={true} style={styles.CupertinoFilter}>
         <View style={styles.RowSpaceBetween}>
-          <Chip
+          <Pressable
             style={styles.FilterChip}
             onPress={() => handleSearchInputChange('')}>
-            All
-          </Chip>
-          <Chip
+            <Text>All</Text>
+          </Pressable>
+          <Pressable
             style={styles.FilterChip}
             onPress={() => handleSearchInputChange('English')}>
-            English
-          </Chip>
-          <Chip
+            <Text>English</Text>
+          </Pressable>
+          <Pressable
             style={styles.FilterChip}
             onPress={() => handleSearchInputChange('Hindi')}>
-            Hindi
-          </Chip>
+            <Text>Hindi</Text>
+          </Pressable>
           {route.params.type === 'Songs Library' ? (
             <>
-              <Chip
+              <Pressable
                 style={styles.FilterChip}
                 onPress={() => handleSearchInputChange('Malayalam')}>
-                Malayalam
-              </Chip>
-              <Chip
+                <Text>Malayalam</Text>
+              </Pressable>
+              <Pressable
                 style={styles.FilterChip}
                 onPress={() => handleSearchInputChange('Liturgy')}>
-                Liturgy
-              </Chip>
-              <Chip
+                <Text>Liturgy</Text>
+              </Pressable>
+              <Pressable
                 style={styles.FilterChip}
                 onPress={() => handleSearchInputChange('Worship')}>
-                Praise & Worship
-              </Chip>
-              <Chip
+                <Text>Praise & Worship</Text>
+              </Pressable>
+              <Pressable
                 style={styles.FilterChip}
                 onPress={() => handleSearchInputChange('Action Songs')}>
-                Action Songs
-              </Chip>
+                <Text>Action Songs</Text>
+              </Pressable>
             </>
           ) : (
             <></>
           )}
         </View>
-      </ScrollView>
-      <View style={styles.List}>
-        <FlatList
-          data={filteredData}
-          keyExtractor={(item: any) => item.id.toString()}
-          renderItem={renderItem}
-          style={styles.FlatListStyle}
-        />
-      </View>
+      </ScrollView> */}
+      <Searchbar
+        onChangeText={handleSearchInputChange}
+        placeholder="Search... "
+        value={searchQuery}
+        style={styles.Searchbar}
+        mode="view"
+        showDivider={false}
+        elevation={2}
+      />
+      <FlatList
+        data={filteredData}
+        keyExtractor={(item: any) => item.id.toString()}
+        renderItem={renderItem}
+        style={styles.FlatListStyle}
+      />
     </View>
   );
 }
@@ -126,37 +115,33 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     alignItems: 'center',
     backgroundColor: 'white',
-    margin: 30,
     padding: 5,
     borderRadius: 10,
   },
   List: {
-    margin: 10,
-    height: '80%',
+    height: '85%',
   },
   ListItem: {
-    marginBottom: 10,
+    marginBottom: 5,
     width: '100%',
-    height: 50,
-    padding: 10,
-    alignSelf: 'flex-start',
-    borderBottomWidth: 1,
+    height: 30,
+    padding: 5,
+    alignSelf: 'center',
     borderRadius: 5,
   },
   ListText: {
     fontWeight: '700',
-    fontSize: 20,
+    fontSize: 15,
     color: 'black',
   },
   CupertinoFilter: {
     flexDirection: 'row',
-    marginBottom: 5,
-    height: 130,
-    padding: 10,
+    height: '10%',
   },
   FilterChip: {
     marginLeft: 15,
-    height: 40,
+    fontSize: 15,
+    padding: 0,
   },
   IconStyle: {
     marginLeft: 10,
@@ -167,6 +152,13 @@ const styles = StyleSheet.create({
   },
   Searchbar: {
     backgroundColor: 'white',
+    width: '90%',
+    marginLeft: '5%',
+    borderRadius: 10,
+    padding: 2,
+    marginVertical: '5%',
+    height: 35,
+    minHeight: 35,
   },
   RowSpaceBetween: {
     flexDirection: 'row',

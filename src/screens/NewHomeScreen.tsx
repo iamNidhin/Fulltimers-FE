@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {
+  Image,
   ScrollView,
   StyleSheet,
   Text,
@@ -18,6 +19,7 @@ const HomeScreen = ({navigation}: any) => {
   const [songs, setSongs] = useState(songsData);
   const [mass, setMass] = useState(massData);
   const [activities, setActivities] = useState(activitiesData);
+
   const getData = async (url: any) => {
     const res = await fetchData(url);
     if (res.length !== 0) {
@@ -60,7 +62,7 @@ const HomeScreen = ({navigation}: any) => {
       {
         id: 2,
         title: 'Songs Library',
-        url: 'https://images.unsplash.com/photo-1549401002-bcd2dba1a5c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80',
+        url: 'https://cdn.pixabay.com/photo/2016/11/29/13/14/musical-1869570_1280.jpg',
         data: songs,
         type: 'Library',
         color: '#F7D56E',
@@ -68,7 +70,7 @@ const HomeScreen = ({navigation}: any) => {
       {
         id: 3,
         title: 'Holy Mass',
-        url: 'https://images.unsplash.com/photo-1518187544126-ae31d92f1b4a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80',
+        url: 'https://cdn.pixabay.com/photo/2017/02/01/19/36/church-2038735_1280.jpg',
         data: mass,
         type: 'Response',
         color: '#C8E1DB',
@@ -76,7 +78,7 @@ const HomeScreen = ({navigation}: any) => {
       {
         id: 4,
         title: 'Activities',
-        url: 'https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1138&q=80',
+        url: 'https://cdn.pixabay.com/photo/2015/01/08/18/29/kids-593313_1280.jpg',
         data: activities,
         type: 'Accordian',
         color: '#E7D9D4',
@@ -100,6 +102,7 @@ const HomeScreen = ({navigation}: any) => {
                   type: item.type,
                 })
               }>
+              <Image source={{uri: item.url}} style={styles.cardImage} />
               <Text style={styles.cardText}>{item.title}</Text>
             </TouchableOpacity>
           ))}
@@ -115,11 +118,17 @@ const styles = StyleSheet.create({
   },
   contentContainer: {
     padding: 20,
+    height: '100%',
+    display: 'flex',
+    alignContent: 'center',
+    justifyContent: 'space-between',
   },
   title: {
     fontSize: 24,
     fontWeight: '400',
     color: '#000',
+    marginTop: '20%',
+    marginBottom: '10%',
   },
   bold: {
     fontWeight: '700',
@@ -133,7 +142,7 @@ const styles = StyleSheet.create({
   },
   card: {
     width: '48%',
-    height: 120,
+    height: '30%',
     borderRadius: 15,
     justifyContent: 'center',
     alignItems: 'center',
@@ -145,6 +154,11 @@ const styles = StyleSheet.create({
     fontWeight: '600',
     color: '#333',
     textAlign: 'center',
+  },
+  cardImage: {
+    width: '100%',
+    height: 100,
+    borderRadius: 10,
   },
 });
 

@@ -97,7 +97,7 @@ function App(): JSX.Element {
       <Tab.Navigator
         screenOptions={({route}) => ({
           tabBarIcon: props => <TabBarIcon route={route} {...props} />,
-          tabBarActiveTintColor: '#05445E',
+          tabBarActiveTintColor: 'black',
           tabBarInactiveTintColor: 'gray',
         })}>
         <Tab.Screen
